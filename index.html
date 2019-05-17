@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.com/libraries/bulma">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>KaminoUs</title>
 </head>
 <body>
@@ -42,8 +43,8 @@
                                     </div>
                     <div class="navbar-item">
                       <div class="buttons">
-                        <a class="button is-light">
-                          Log in
+                        <a class="button">
+                          LOGIN
                         </a>
                       </div>
                     </div>
@@ -105,7 +106,7 @@
             </div>
 
             <div class="column_context" class="column ">
-                    <img src="./assets/icon-2.png" alt="">
+                    <img class="column_icons" src="./assets/icon-2.png" alt="">
                     <div class="column_title">
                         <p>FIGHTERS</p>
                         <span>400</span>
@@ -151,14 +152,14 @@
                     
             </div>
             <div class="column_context" class="column ">
-                    <img src="./assets/icon-3.png" alt="">
+                    <img class="column_icons" src="./assets/icon-3.png" alt="">
                     <div class="column_title">
                         <p>IMPERIAL</p>
                         <span>600</span>
                         <span>TICKETS</span>
                     </div>
                     <div class="column_red">
-                        <p><span class="column_price">$6,499.°°</span> <span class="column_MXN">MXN</span>
+                        <p><span class="column_price">$9,499.°°</span> <span class="column_MXN">MXN</span>
                         
                         <span class="column_mes">/Mes</span></p>
                     </div>
@@ -210,7 +211,10 @@
         <div class="main_container">
             <div class="container_columns">
             <div class="left">
-                <h3>OPS PROJECTS</h3>
+                <div>  
+                    <img src="./assets/projects-icon-1.png">              
+                    <h3>OPS PROJECTS</h3>
+                </div>
                 <p>Porque siempre quieres estar cerca de tus clientes, pero tienes que enfocarte en el producto y una encuesta no es suficiente</p>
                 <p>Crea proyectos con tareas para contactar a tus clientes y saber más de ellos, genera feedback e insights de puntos específicos sobre tu producto</p>
 
@@ -223,6 +227,7 @@
                 </ul>
             </div>
             <div class="right">
+                <img src="./assets/projects-img.png">
                 <p>Consulta reportes de avance y resultados las tareas asignadas</p>
                 <p>Recibe insights semanales basados en los resultados de nuestros expertos</p>
                 <p>Paga de acuerdo a los resultados de cada proyecto.</p>
@@ -232,23 +237,82 @@
             <h2>Activa tus proyectos de forma sencilla:</h2>
             <div class="columns">
                 <div class="column">
-                    <h4>1.CREA</h4>
-                    <p>Crea proyectos con etapas y tareas específicas para nuestros expertos</p>
+                    <img src="./assets/projects-icon-crea.png">
+                    <div class="activa_">
+                        <h4>1.CREA</h4>
+                        <p>Crea proyectos con etapas y tareas específicas para nuestros expertos</p>
+                    </div>
                 </div>
                 <div class="column">
-                    <h4>2.SINCRONIZA</h4>
-                    <p>Sube contactos el listado de tus clientes por achivo o configura la forma on demand</p>
+                    <img src="./assets/projects-icon-sincroniza.png">
+                    <div class="activa_">
+                        <h4>2.SINCRONIZA</h4>
+                        <p>Sube contactos el listado de tus clientes por achivo o configura la forma on demand</p>
+                    </div>
                 </div>
                 <div class="column">
-                    <h4>3.CONFIRMA</h4>
-                    <p>Elige tu fecha límite para ejecutar tu proyecto y envíalo a aprobación</p>
+                    <img src="./assets/projects-icon-confirma.png">
+                    <div class="activa_">
+                        <h4>3.CONFIRMA</h4>
+                        <p>Elige tu fecha límite para ejecutar tu proyecto y envíalo a aprobación</p>
+                    </div>
                 </div>
             </div>
             <input type="button" value="CONTÁCTANOS PARA GENERAR TU PRIMER OPS PROJECT EN KAMINO.US"/>
         </div>
     </div>
     </section>
+    <section id="contact" class="columns">
+        <div class="column" class="contact">
+            <div>
+                <span><i class="far fa-comments"></i></span>
+                <span>Hagamos contacto</span>
+            </div>
+            <div>
+                <p>Atiende a tus clientes con un ejercicio de espertos
+                    en servicio, en el horario que tu cliente prefier por 
+                    su medio favorito
+                </p>
+            </div>
+            <div>
+                <p>Si estás obsesionado con tus clientes y con su
+                    experiencia en el servicio tanto como nosotros,
+                    contáctanos, somos el match perfecto para ti.
+                </p>
+            </div>
+            <div class="contact_social">
+                <span><i class="far fa-envelope"></i> me@kamino.us</span>
+                <span><i class="fab fa-facebook"></i> /kamino.us </span>
+                
+            </div>
+            
+
+        </div>
+        <div class="column" class="contact">
+            <div>
+                <span>
+                    <i class="far fa-paper-plane"></i>
+                </span>
+                <span>Envíanos un mensaje</span>
+            </div>
+            <div>
+                    <input class="input" type="text" placeholder="Text input">
+                    <input class="input" type="text" placeholder="Text input">
+                    <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+            </div>
+        </div>
+
+    </section>
 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </body>
 </html>
+
+<!-- 
+    ./assets/projects-icon-1.png
+    ./assets/projects-icon-crea.png
+    ./assets/projects-icon-sincroniza.png
+    ./assets/projects-icon-crea.png
+    ./assets/projects-img.png
+
+ -->
