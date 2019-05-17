@@ -39,7 +39,7 @@ body, html{
 }
 
 #columnas{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     justify-content: center;
 }
@@ -50,7 +50,7 @@ body, html{
 }
 
 .column_context{
-    width:35%;
+    width:33%;
     border: 1px solid rgba(216, 213, 213, 0.774);
     height: 700px;
     margin: 10px;
@@ -61,35 +61,38 @@ body, html{
 }
 
 
-.column_icons, .column_title, .column_title, .column_img{
+.column_icons, .column_title, .column_img{
     margin: 0 auto;
     display: inline-block;
     align-items: center;
+    justify-content: center;
 }
 
 .column_img{
     justify-content: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
 }
 .column_title{
-    width:50%;
     /* outline: 1px solid blue; */
-    margin-right: 10%;
+    margin-left: 15px;
     align-items: center;
+    font-size: 18px;
     
 }
 
 .column_title span:nth-child(2){
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 
-
-
 .column_icons{
-    margin-top: 5px;
-    width: 50px;
-    height: 50px;
+    /* outline: 1px solid blue; */
+    display: inline-block;
+    width: 60px;
+    height: 60px;
 }
 
 .column_red{
@@ -100,8 +103,10 @@ body, html{
     color: aliceblue;
 }
 
-.column_red .end{
+.end{
     justify-content: end;
+    background-color: #F60756;
+    border-radius: 5px; 
 }
 
 .column_price{
@@ -118,17 +123,12 @@ body, html{
 }
 
 .column_allInfo{
-    margin-top: 5px;
-    width: 60%;
+    /* outline: 1px solid violet; */
+    width: 90%;
     margin: 0 auto;
+    text-align: center;
 }
 
-.column_allInfo div{
-    /* outline: 1px solid purple; */
-    text-align: center;
-    margin-bottom: 13px;
-    /* border-bottom: 1px solid rgba(128, 128, 128, 0.295); */
-}
 .column_info_tittle{
     margin-top: 5px;
     font-size: 14px;
@@ -138,6 +138,7 @@ body, html{
 .column_info_txt{
     font-weight: bold;
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .bottom{
