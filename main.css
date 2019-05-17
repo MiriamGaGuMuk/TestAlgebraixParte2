@@ -101,6 +101,8 @@ body, html{
     background-color:#F60756;
     padding: 18px;
     color: aliceblue;
+    letter-spacing: 3px;
+
 }
 
 .end{
@@ -124,7 +126,7 @@ body, html{
 }
 
 .column_price{
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bolder;
 }
 
@@ -254,4 +256,75 @@ ul li{
     width: 40%;
     height: 40%;
     margin-right: .3em;
+}
+
+/* CONTACT */
+#contact{
+    margin: 0 auto;
+    width:60%;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+#column_one{
+    width: 33.3%;
+    margin-right: 7%;
+}
+
+#column_two{
+    justify-content: space-between;
+}
+
+#make_contact{
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+
+#contacto{
+    display: inline-block;
+    margin-top: 2%;
+}
+
+
+.fa-comments, .fa-paper-plane{
+    margin-left: 20px;
+    margin-right: 9px;
+    font-size: 30px;
+    
+}
+
+.contact_description{
+    margin: 7%;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.contact_social span{
+    display: block;
+    margin-left: 6%;
+    margin-bottom: 6%;
+}
+
+.fa-envelope,
+.fa-facebook{
+    
+    font-size: 25px;
+    margin-right: 3%;
+}
+
+#column_two{
+    display: inline-block;
+    /* outline: 1px solid darkolivegreen; */
+}
+
+#contact_form input{
+    margin-bottom: 5%;
+    background-color: #66666617;
+}
+
+#textarea{
+    background-color: #66666617;
 }
