@@ -311,7 +311,7 @@ ul li{
 .fa-envelope,
 .fa-facebook{
     
-    font-size: 25px;
+    font-size: 23px;
     margin-right: 3%;
 }
 
@@ -327,4 +327,10 @@ ul li{
 
 #textarea{
     background-color: #66666617;
+}
+
+#btn_enviar{
+    width: 100%;
+    margin-top: 3%;
+    background-color: #F60756;
 }
